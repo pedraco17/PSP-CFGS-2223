@@ -58,6 +58,7 @@ public class Producer extends Thread {
             try {
                 Thread.sleep(10);
             } catch (Exception e) {
+                e.printStackTrace();
             }
         }
     }
@@ -83,6 +84,7 @@ public class Consumer extends Thread {
             try {
                 Thread.sleep(10);
             } catch (Exception e) {
+                e.printStackTrace();
             }
         }
     }
